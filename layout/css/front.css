@@ -1,0 +1,680 @@
+/* start MAIN */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Kalam|Prata|Tinos&display=swap');
+body{
+
+	background-color: #f4f4f4;
+	font-size: 16px;
+  font-family:  cursive;
+
+
+} 
+
+h3{
+
+   font-family: 'Courgette', cursive;
+}
+h1{
+  font-family: 'Courgette', cursive;
+	font-size: 45px;
+	margin: 40px 0 ;
+	font-weight: bold;
+	color: #666;
+}
+.title{
+
+  color: white;
+}
+.input-container{
+
+	position: relative;
+}
+.login-page .login .input-container .show-pass{
+
+  display: inline-block;
+
+}
+.asterisk{
+
+	font-size: 25px;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	color: #b71540;
+
+}
+.info .asterisk{
+
+  font-size: 25px;
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  color: #b71540;
+
+}
+.main-form .asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #b71540;
+}
+.nice-message{
+
+	padding: 10px;
+	background-color: #fff;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+	
+	
+
+
+}
+
+
+/* END MAIN */
+
+
+
+/* start bootstrap edits */
+
+.navbar {
+
+	border-radius: 0;
+	margin-bottom: 0;
+	padding-left: 30px;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+.navbar-brand{
+
+	font-size: 1em;
+   
+	
+}
+a.nav-link ,.navbar-brand{
+    padding: 10px 1px;
+}
+.navbar .container .navbar-brand {
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-left: 0px;
+
+
+}
+.navbar .container .navbar-brand:hover {
+    color: #ded2d2;
+}
+.navbar-nav .nav-link {
+  margin-left: 0px;
+  padding-left: 0px;
+
+}
+.navbar-nav .nav-link:hover{
+
+ color: #ded2d2 !important;
+}
+
+.dropdown-menu{
+
+	min-width: 180px;
+	padding: 0px;
+	font-size: 1em;
+	border: none;
+	border-radius: 0px;
+	margin-top: 5px;
+	right: 20px;
+
+  
+}
+.dropdown-item {
+    padding: 10px 15px;
+ }
+ .dropdown-toggle {
+
+    margin-right: 130px;
+
+}
+.dropdown-toggle:hover{
+
+  cursor: pointer;
+}
+ 
+ .dropdown-item:focus, .dropdown-item:hover
+ {
+    background-color:#b71540;
+    color: white;
+ }
+ .form-control{
+
+ 	position: relative;
+ }
+/* end bootstrap edits */
+
+/* start header */
+.upper-bar{
+
+   padding: 10px;
+   background-color: #fff;
+
+}
+.my-image{
+   
+   width: 35px;
+   height: 35px;
+
+}
+nav .container .logo{
+
+  width: 30px;
+  height: 30px;
+}
+/* banner section */
+#banner{
+
+  background-color: #343a40;
+  color: #fff;
+  padding-top: 5%;
+ 
+}
+.promo-title{
+
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+
+}
+
+
+/*end banner */
+
+/* end header */
+
+/* start login page */
+.login-page form , .the-errors{
+
+   max-width: 400px;
+   margin: auto;
+
+}
+.login-page form input{
+
+	margin-bottom: 10px;
+}
+.login-page .selected{
+
+    color: #b71540;
+
+}
+.login-page [data-class ='signup'].selected{
+
+    color: #2c3e50;
+}
+.login-page .signup .btn-light{
+
+	background-color: #2c3e50;
+}
+.login-page h1{
+
+	color: #c0c0c0;
+
+}
+.login-page h1 span{
+
+
+	cursor: pointer;
+}
+.login-page .signup{
+
+
+	display: none;
+}
+.login-page .login .input-container .login-btn {
+
+  margin-bottom: 200px;
+}
+.the-errors .msg{
+
+	padding: 10px;
+	text-align: left;
+	border-left: 5px solid #d38080;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #919191;
+
+}
+.the-errors .error{
+
+	border-left: 5px solid #cd6858;
+}
+.form-control:focus {
+    color: #495057;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgba(148, 154, 160, 0.25);
+}
+.show-pass{
+
+  position: absolute;
+  top: 3px;
+  right: -39px;
+  display: inline-block;
+
+}
+/* end login page */
+
+/* start categories page */
+
+.item-box{
+
+
+	position: relative;
+	padding: 10px;
+    margin-bottom: 40px;
+ 
+ 
+
+}
+.item-box .price-tag ,.item-box-profile .price-tag{
+
+    background-color: #b4b4b4;
+    padding: 2px 11px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-weight: bold;
+    color: #fff;
+
+
+}
+.item-box .approve-status ,.item-box-profile .approve-status{
+   
+   background-color: #b85a5a;
+   padding: 3px 5px ;
+   position: absolute;
+   left: 0px;
+   top: 40px;
+   color: #fff;
+
+}
+.item-box .caption p {
+
+	height: 60px;
+	max-height: 60px;
+
+
+}
+.item-box .caption a:hover ,.item-box-profile .caption a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.item-box .caption a ,.item-box-profile .caption a {
+    color: #2c3e50;
+    text-decoration: none;
+    background-color:#eee;
+     border: none;
+    
+}
+.item-box .caption .Edit_Item ,.item-box-profile .caption .Edit_Item{
+    color: #fff;
+    text-decoration: none;
+    background-color: #b71540;
+  
+
+}
+.item-box .caption .Edit_Item:hover,.item-box-profile .caption .Edit_Item:hover{
+
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: snow;
+
+}
+.my-comments .card .btn-dark:hover{
+
+  color:#fff ;
+
+
+}
+.my-comments .card .btn-light:hover{
+
+  color: #fff ;
+  background-color: #2c3e50;
+  border-color: snow ;
+
+
+
+}
+
+.btn-light,.btn-light:hover {
+    color: #fff;
+    background-color: #b71540;
+    border-color: snow;
+   
+
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #fff;
+    border-color: #fdfeff;
+}
+
+/* end categories page */
+
+
+/* start Profile page */
+
+.information{
+
+
+	margin-top: 20px;
+	
+}
+.information .btn{
+
+	margin-top: 15px;
+}
+
+.information ul{
+
+	padding: 0px;
+	margin: 0px;
+}
+.information ul li{
+
+	padding: 10px;
+}
+.information ul li:nth-child(odd){
+
+
+	background-color: #eee;
+}
+.information ul li span{
+
+	display: inline-block;
+	width: 120px;
+}
+.information a:hover{
+
+  background-color: #2c3e50;
+
+}
+.card .date{
+
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+    
+
+}
+.profile a{
+
+   display: block;
+    margin: auto;
+    width: 130px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.profile a:hover{
+
+  background-color: #2c3e50;
+
+}
+
+.caption .btn-light:hover{
+
+  background-color: #282c31;
+  color: #fff;
+
+}
+.caption .btn-light{
+
+   
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+  
+   
+}
+.caption .country{
+
+   color: #b71540;
+   font-weight: bold;
+   
+}
+.caption .description{
+
+
+  margin-top: 20px;
+
+}
+.item-box-profile {
+    position: relative;
+    margin-bottom: 40px;
+    height: 480px;
+    min-width: 200px;
+  
+    
+}
+.item-box-profile .caption p{
+
+
+  padding-right: 20px;
+ 
+
+  
+ 
+}
+.item-box-profile img{
+
+margin: auto;
+}
+/* end Profile page */
+
+/* start Show item page */
+
+.item-info h2{
+
+	padding: 10px;
+	margin: 0px;
+	padding-top: 0px;
+}
+.item-info p{
+
+	padding: 10px;
+}
+.item-info ul li{
+
+
+	padding: 10px;
+
+}
+ .item-info ul li:nth-child(odd){
+
+
+	background-color: #e8e8e8;
+}
+.item-info ul li span{
+
+	display: inline-block;
+	width: 120px;
+}
+.custom-hr{
+
+border-top: 1px solid #c9c9c9;
+
+
+}
+.add-comment h3{
+
+	margin: 0 0 10px;
+}
+.comment-box {
+
+    margin-bottom: 20px;
+
+
+}
+.comment-box img {
+
+   max-width: 100px;
+   width: 70px;
+    height: 70px;
+
+
+}
+.comment-box .lead{
+  
+  background-color: #e0e0e0;
+  position: relative;
+  padding: 10px;
+  margin-top: 18px;
+  left: 30px;
+}
+.comment-box .lead:before{
+  
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #e0e0e0 transparent transparent;
+  position: absolute;
+  left: -28px;
+  top: 10px;
+
+
+}
+.add-comment textarea{
+
+   display: block;
+   margin-bottom: 10px;
+   width: 500px;
+   height: 120px;
+}
+hr:last-child{
+
+	display: none;
+}
+.custom-hr:last-child{
+	display: none;
+}
+
+.img-item{
+
+
+  max-width: 100%;
+    height: 250px;
+    width: 250px;
+}
+.item-photo{
+
+    height: 300px;
+    width: 300px;
+
+}
+.list-unstyled li a {
+
+    color: #12488a;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+.list-unstyled li a:hover{
+
+    color: #61999f;
+
+}
+.tags-items a{
+
+    display: inline-block;
+    background-color: #e2e2e2 ;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666 ;
+    margin-right: 5px;
+
+
+}
+/* end Show item page */
+
+.upper-bar .container a .login-logout ,.login-logout {
+
+
+  text-decoration: none;
+  color: #b71540;
+
+}
+
+.upper-bar .container a:hover,.login-logout:hover {
+
+  text-decoration: none;
+ 
+  
+}
+.upper-bar .container a .login-logout:hover ,.login-logout:hover{
+
+  color:  #2c3e50;
+}
+/*select box */
+.selectboxit-option a.selectboxit-option-anchor {
+color: #000;
+  background: #fff !important;
+
+}
+.selectboxit-option a.selectboxit-option-anchor:hover {
+
+  color: white !important;
+  background: grey !important;
+}
+.selectboxit-selected a.selectboxit-option-anchor {
+
+  background: grey !important;
+  color: #fff !important;
+}
+.selectboxit-option a{
+
+  color: #000 !important;
+}
+/* footer */
+
+.a-footer{
+color: black;
+border-right: 2px solid #b71540;
+
+
+}
+footer{
+height: 130px;
+background-color:#FFF ;
+box-shadow: 5px 2px 8px  gray;
+margin-top: 50px;
+margin-bottom: 0px;
+}
+.last-footer{
+color: black;
+
+
+}
+.a-footer:hover,.last-footer:hover{
+text-decoration: none;
+color:#2c3e50 ;
+}
+.laila{
+  color: #b71540;
+  font-style: italic;
+font-family: 'Courgette', cursive;
+
+
+}
+.footer-icon{
+
+  color:  #2c3e50 ;
+}

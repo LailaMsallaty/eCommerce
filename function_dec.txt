@@ -1,0 +1,23 @@
+=======================
+
+== Function Document ==
+
+=======================
+
+
+
+function getAllfrom ($field , $table , $Where =NULL, $and =NULL, $orderfield , $ordering ='DESC'){
+
+
+
+  global $conn;
+
+
+    $getAll = $conn ->prepare("SELECT $field FROM  $table $Where $and ORDER BY $orderfield $ordering  ");
+
+    $getAll->execute();
+
+    $all =  $getAll -> fetchAll();
+
+    return  $all;
+} 
